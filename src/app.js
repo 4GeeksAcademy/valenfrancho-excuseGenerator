@@ -53,7 +53,7 @@ function generateExcuse() {
     " " +
     randomWhen;
 
-  document.getElementById("excuse").innerHTML = excuse;
+  document.querySelector("#excuse").innerHTML = excuse;
 }
 
 generateExcuse();
